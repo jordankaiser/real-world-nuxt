@@ -4,7 +4,7 @@
 
 ## Build Setup
 
-``` bash
+```bash
 # install dependencies
 $ npm install
 
@@ -20,3 +20,12 @@ $ npm run generate
 ```
 
 For detailed explanation on how things work, checkout [Nuxt.js docs](https://nuxtjs.org).
+
+# Dev build test commands
+
+`PORT=3001 npm run dev`
+`json-server --watch db.json`
+
+This will run the local version on port 3001 and start up a test api server using json-server
+
+You can see the site at localhost:3001
